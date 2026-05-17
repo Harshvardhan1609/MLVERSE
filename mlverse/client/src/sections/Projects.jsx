@@ -302,6 +302,9 @@ const Projects = () => {
             height: 195px;
             padding: 0.75rem;
             border-radius: 12px;
+            left: 50%;
+            margin-left: -67.5px;
+            bottom: 10px;
           }
           .fc-num { font-size: 11px; }
           .fc-suit { font-size: 10px; }
