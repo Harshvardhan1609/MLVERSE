@@ -2,7 +2,7 @@
 
 # ⚡ MLverse
 
-<img src="./screenshots/01_hero.png" alt="MLverse Hero" width="100%" style="border-radius:12px; margin-bottom:16px;" />
+<img src="./mlverse/screenshots/01_hero.png" alt="MLverse Hero" width="100%" style="border-radius:12px; margin-bottom:16px;" />
 
 <!-- Badges -->
 ![Built With](https://img.shields.io/badge/Built%20With-React%2018-61DAFB?style=for-the-badge&logo=react&logoColor=white)
@@ -37,33 +37,33 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="./screenshots/01_hero.png" alt="Hero Section" width="100%" />
+      <img src="./mlverse/screenshots/01_hero.png" alt="Hero Section" width="100%" />
       <br/><sub><b>🎬 Hero — 3D Brain Scroll Animation</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/02_about.png" alt="About Section" width="100%" />
+      <img src="./mlverse/screenshots/02_about.png" alt="About Section" width="100%" />
       <br/><sub><b>🔭 About — What is MLverse?</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./screenshots/03_stats.png" alt="Stats Section" width="100%" />
+      <img src="./mlverse/screenshots/03_stats.png" alt="Stats Section" width="100%" />
       <br/><sub><b>📊 Stats — Animated Counters</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="./screenshots/04_projects.png" alt="Projects Section" width="100%" />
+      <img src="./mlverse/screenshots/04_projects.png" alt="Projects Section" width="100%" />
       <br/><sub><b>🗂️ Projects — 27 ML Apps, Live & Deployed</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="./screenshots/05_builders.png" alt="Builders Section" width="80%" />
+      <img src="./mlverse/screenshots/05_builders.png" alt="Builders Section" width="80%" />
       <br/><sub><b>👥 The Builders — Every Builder. Every Project.</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="./screenshots/06_team_launch.jpg" alt="Team Launch Day" width="80%" />
+      <img src="./mlverse/screenshots/06_team_launch.jpg" alt="Team Launch Day" width="80%" />
       <br/><sub><b>🚀 Cohort 01 — MLverse Launch Day at SIN School of AI</b></sub>
     </td>
   </tr>
