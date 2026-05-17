@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production build outputs
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env*
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Archives/Zip files & Extracted folders
+*.zip
+*.tar.gz
+*.rar
+*.7z
+stitch_mlverse_royal_cyber_interface/
+
+# Scripts & temporary utilities
+video_to_frames.py
+
+# Python environment & cache
+__pycache__/
+**/__pycache__/
+*.pyc
+venv/
+**/venv/
+.venv/
+**/.venv/

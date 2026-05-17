@@ -1,0 +1,31 @@
+const projects = [
+  { id: 1, name: "TrendCluster AI", project: "Suryapal Singh Rathore", link: "https://clustering-8grahwa2svom3acvbufcj9.streamlit.app/", type: "Clustering" },
+  { id: 2, name: "Random Forest", project: "Lalit Kanwar", link: "https://randomforest-ttqrpseauduxkxiz78ltel.streamlit.app/", type: "Classification" },
+  { id: 3, name: "Clustering Analysis", project: "Khwahish Bhati", link: "https://clusteringanalysis-eyrixzttks47yhcdx2mysu.streamlit.app/", type: "Clustering" },
+  { id: 4, name: "Random Forest", project: "Tanishq", link: "https://randomforest-ttqrpseauduxkxiz78ltel.streamlit.app/", type: "Classification" },
+  { id: 5, name: "GhostedAI", project: "Satyam Mall", link: "https://ghostedai999.streamlit.app/", type: "AI App" },
+  { id: 6, name: "GhostedAI", project: "Satyam Deora", link: "https://ghostedai999.streamlit.app/", type: "AI App" },
+  { id: 7, name: "ClusterVibe: AI Segmenter", project: "Shreyanshi Jangid", link: "https://clustervibe.streamlit.app/", type: "Clustering" },
+  { id: 8, name: "Machine Learning App", project: "Mansi Soni", link: "https://machine-learning-npzzshyytnx89xmqhapayy.streamlit.app/", type: "ML App" },
+  { id: 9, name: "VibeCheck ML", project: "Ridhima Agarwal", link: "https://vibecheck001.streamlit.app/", type: "AI App" },
+  { id: 10, name: "Activation Model", project: "Kritesh Singh Chouhan", link: "https://activation-model-8t6bgb5lqvg8zwnulim968.streamlit.app", type: "Neural Net" },
+  { id: 11, name: "ClusterVerse", project: "Himanshu Bhandari", link: "https://clusterverse-afathytjikzwzjtqkyrbhu.streamlit.app/", type: "Clustering" },
+  { id: 12, name: "Random Forest", project: "Harish", link: "https://randomforest-ttqrpseauduxkxiz78ltel.streamlit.app/", type: "Classification" },
+  { id: 13, name: "ML Acti. Pro.", project: "Nikhil Sharma", link: "https://ml-acti-pro-pvq2kxzs8ojhv2qnvtqmy3.streamlit.app/", type: "Neural Net" },
+  { id: 14, name: "Learn ML Arctic Ultimate", project: "Mayank Solanki", link: "https://activation-model-8t6bgb5lqvg8zwnulim968.streamlit.app", type: "Neural Net" },
+  { id: 15, name: "ML Clustering", project: "Aniket Daiya", link: "https://ml-clustering-npt5ms4wcpjtvbqgigkwmr.streamlit.app/", type: "Clustering" },
+  { id: 16, name: "Learn ML Arctic Ultimate v2", project: "Kritesh Singh Chouhan", link: "https://activation-model-83tbjhtkdhhnpbry53kwxi.streamlit.app", type: "Neural Net" },
+  { id: 17, name: "Clustering Analysis", project: "HarshWardhan Singh Jodha", link: "https://clusteringanalysis-eyrixzttks47yhcdx2mysu.streamlit.app/", type: "Clustering" },
+  { id: 18, name: "Clustering Analysis", project: "Arvind Bishnoi", link: "https://clusteringanalysis-eyrixzttks47yhcdx2mysu.streamlit.app/", type: "Clustering" },
+  { id: 19, name: "Classification", project: "Jaswardhan Solanki", link: "https://classificationgit-b95gecbrljdkbn9ryqhbe7.streamlit.app/", type: "Classification" },
+  { id: 20, name: "Activation Dashboard", project: "Priyansh Rai", link: "https://activation-dashboard-lb2r65ed4yrwzwzj7sbdse.streamlit.app", type: "Neural Net" },
+  { id: 21, name: "Clustering Dashboard", project: "Su_kumawat (Sunil)", link: "https://clustering-dashboard-sunil.streamlit.app/", type: "Clustering" },
+  { id: 22, name: "Activation Functions", project: "Anonymous", link: "https://activation-fun-dmuemtinpjrfdonvkdni9t.streamlit.app/", type: "Neural Net" },
+  { id: 23, name: "Stock Market AI", project: "Udit Jain", link: "#", type: "ML App" },
+  { id: 24, name: "AIGoverse", project: "Shakti Singh", link: "#", type: "AI App" },
+  { id: 25, name: "NeuralOrbit", project: "Khushal Khatri", link: "https://neuralorbit.streamlit.app/", type: "ML Library" },
+  { id: 26, name: "Activation Function", project: "Neeti Lohiya", link: "https://activationfunctionn.netlify.app", type: "Neural Net" },
+  { id: 27, name: "OpenRouter Explorer", project: "Ritesh Mane", link: "https://riteshmane-2005-homework-openrouter-explorerapp-iko7za.streamlit.app/", type: "AI App" }
+];
+
+module.exports = projects;
