@@ -11,6 +11,7 @@ const Projects = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [page, setPage] = useState(0);
   const [selected, setSelected] = useState(null);
+  const [isMobile, setIsMobile] = useState(false);
   const filters = ['ALL', 'Clustering', 'Classification', 'Neural Net', 'AI App', 'ML App'];
 
   const filtered = useMemo(() =>
@@ -25,12 +26,25 @@ const Projects = () => {
 
   useEffect(() => { setPage(0); }, [activeFilter, searchTerm]);
 
-  // Fan angles: spread from -36deg to +36deg, wider x-spread
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // Fan angles: spread from -36deg to +36deg, wider x-spread. Adapted beautifully for mobile!
   const getFan = (i, total) => {
     const t = total <= 1 ? 0.5 : (i / (total - 1));
-    const angle = -36 + t * 72;
-    const tx = (i - (total - 1) / 2) * 38;
-    const ty = Math.abs(angle) * 0.7;
+    const maxAngle = isMobile ? 14 : 36;
+    const stepX = isMobile ? 12 : 38;
+    const stepY = isMobile ? 0.35 : 0.7;
+
+    const angle = -maxAngle + t * (maxAngle * 2);
+    const tx = (i - (total - 1) / 2) * stepX;
+    const ty = Math.abs(angle) * stepY;
     return { rotate: angle, x: tx, y: ty };
   };
 
@@ -72,7 +86,7 @@ const Projects = () => {
                   initial={{ opacity: 0, scale: 0.7, rotate: 0 }}
                   animate={{ opacity: 1, scale: 1, rotate, x, y }}
                   transition={{ type: 'spring', stiffness: 260, damping: 22, delay: i * 0.04 }}
-                  whileHover={{ y: y - 30, scale: 1.08, zIndex: 50, transition: { duration: 0.2 } }}
+                  whileHover={isMobile ? { y: y - 10, scale: 1.02, zIndex: 100 } : { y: y - 30, scale: 1.08, zIndex: 50, transition: { duration: 0.2 } }}
                   onClick={() => setSelected(p)}
                 >
                   {/* Corner marks like a playing card */}
@@ -283,8 +297,18 @@ const Projects = () => {
           .ps { padding: 3.5rem 4% 5rem; }
           .ps-title-row { flex-direction: column; align-items: flex-start; }
           .ps-search { width: 100%; }
-          .fan-card { width: 155px; height: 220px; }
-          .fan-deck { height: 310px; }
+          .fan-card {
+            width: 135px;
+            height: 195px;
+            padding: 0.75rem;
+            border-radius: 12px;
+          }
+          .fc-num { font-size: 11px; }
+          .fc-suit { font-size: 10px; }
+          .fc-icon { font-size: 24px; }
+          .fc-name { font-size: 11px; letter-spacing: 0.02em; }
+          .fc-creator { font-size: 8px; }
+          .fan-deck { height: 260px; }
         }
       `}</style>
     </section>
