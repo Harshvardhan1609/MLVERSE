@@ -2,15 +2,25 @@
 
 # ⚡ MLverse
 
-<img src="./screenshots/01_hero.png" alt="MLverse Hero" width="100%" style="border-radius:12px; margin-bottom:16px;" />
+<img src="./mlverse/screenshots/01_hero.png" alt="MLverse Hero" width="100%" style="border-radius:12px; margin-bottom:16px;" />
 
 <!-- Badges -->
-![Built With](https://img.shields.io/badge/Built%20With-React%2018-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-4.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-3.12-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.x-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Projects%20on-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+[![Built With](https://img.shields.io/badge/Built%20With-React%2018-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-4.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![GSAP](https://img.shields.io/badge/GSAP-3.12-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://gsap.com)
+[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.x-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://framer.com)
+[![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://sinmlverse.netlify.app)
+[![Streamlit](https://img.shields.io/badge/Projects%20on-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+
+<br/>
+
+[![🌐 Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-sinmlverse.netlify.app-00f5ff?style=for-the-badge&logo=netlify)](https://sinmlverse.netlify.app)
+[![Website](https://img.shields.io/badge/Website-sintechnologies.in-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sintechnologies.in)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-SIN%20Technologies-0077B5?style=for-the-badge&logo=linkedin)](https://in.linkedin.com/company/sinindia)
+[![YouTube](https://img.shields.io/badge/YouTube-@ceoharsh-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@ceoharsh)
+[![Instagram](https://img.shields.io/badge/Instagram-sin.edutech-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/sin.edutech/)
+
+<br/>
 
 ![Projects](https://img.shields.io/badge/Total%20Projects-27-blueviolet?style=flat-square)
 ![Builders](https://img.shields.io/badge/Builders-27-magenta?style=flat-square)
@@ -25,8 +35,6 @@
 > MLverse is a cinematic, scroll-driven showcase of 27 real-world Machine Learning applications — each built, deployed, and owned by students of **SIN School of AI** under **SIN Education & Technology Pvt. Ltd.**
 
 <br/>
-
-[![🌐 Live Demo](https://img.shields.io/badge/🌐%20View%20Live%20Demo-Visit%20MLverse-00f5ff?style=for-the-badge)](https://mlverse.netlify.app)
 
 </div>
 
@@ -308,16 +316,31 @@ The `_redirects` file inside `dist/` handles SPA routing automatically. All 40 b
 
 ---
 
-## 🏛️ Authority & Organisation
+## 🏛️ Leadership, Authority & Organisation
 
 <div align="center">
 
-| | |
+### 👑 Visionary Leadership
+**Er Harshvardhan Purohit**  
+*Founder & CEO, SIN Technologies*  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harshvardhan%20Purohit-0077B5?style=for-the-badge&logo=linkedin)](https://in.linkedin.com/in/harshvardhan1609)
+[![Instagram](https://img.shields.io/badge/Instagram-@ceo.harsh-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/ceo.harsh/)
+[![YouTube Channel](https://img.shields.io/badge/YouTube-CEO%20Harsh-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@ceoharsh)
+
+---
+
+### 🏢 Organisation Profiles
+
+| Entity | Details & Portals |
 |---|---|
-| **Institution** | SIN School of AI |
-| **Organisation** | SIN Education & Technology Pvt. Ltd. |
-| **Cohort** | Batch 1 — The Founding Builders |
-| **Deployment** | 100% Live on Streamlit Cloud & Netlify |
+| **Institution** | **SIN School of AI** |
+| **Parent Organisation** | **SIN Education & Technology Pvt. Ltd.** |
+| **SIN Website** | [🔗 sintechnologies.in](https://sintechnologies.in) |
+| **SIN LinkedIn** | [💼 SIN India Page](https://in.linkedin.com/company/sinindia) |
+| **SIN Instagram** | [📸 @sin.edutech](https://www.instagram.com/sin.edutech/) |
+| **Founding Cohort** | Batch 1 — The Founding Builders |
+| **Deployment Success** | 100% Live on Streamlit Cloud & Netlify (`sinmlverse.netlify.app`) |
 
 </div>
 
