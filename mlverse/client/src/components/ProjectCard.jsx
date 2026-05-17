@@ -10,6 +10,7 @@ const ProjectCard = ({ id, name, project, link, type, isFiltered }) => {
     gsap.to(cardRef.current, {
       y: -20,
       scale: 1.03,
+      zIndex: 10,
       duration: 0.5,
       ease: "power3.out",
       boxShadow: `0 30px 60px rgba(0, 0, 0, 0.5), 0 0 40px ${color}40`
@@ -20,10 +21,37 @@ const ProjectCard = ({ id, name, project, link, type, isFiltered }) => {
     gsap.to(cardRef.current, {
       y: 0,
       scale: 1,
+      zIndex: 1,
       duration: 0.5,
       ease: "power3.out",
       boxShadow: "0 15px 40px rgba(0, 0, 0, 0.3)"
     });
+  };
+
+  const onTouchStart = () => {
+    if (window.innerWidth <= 768) {
+      gsap.to(cardRef.current, {
+        y: -15,
+        scale: 1.04,
+        zIndex: 10,
+        duration: 0.4,
+        ease: "power2.out",
+        boxShadow: `0 25px 50px rgba(0, 0, 0, 0.6), 0 0 35px ${color}50`
+      });
+    }
+  };
+
+  const onTouchEnd = () => {
+    if (window.innerWidth <= 768) {
+      gsap.to(cardRef.current, {
+        y: 0,
+        scale: 1,
+        zIndex: 1,
+        duration: 0.4,
+        ease: "power2.out",
+        boxShadow: "0 15px 40px rgba(0, 0, 0, 0.3)"
+      });
+    }
   };
 
   return (
@@ -32,6 +60,8 @@ const ProjectCard = ({ id, name, project, link, type, isFiltered }) => {
       className={`project-card ${!isFiltered ? 'card--dimmed' : 'card--active'}`}
       onMouseEnter={onEnter}
       onMouseLeave={onLeave}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
       style={{ borderLeftColor: color }}
     >
       <div className="card-id" style={{ color: color }}>
@@ -81,7 +111,9 @@ const ProjectCard = ({ id, name, project, link, type, isFiltered }) => {
           flex-direction: column;
           justify-content: space-between;
           position: relative;
-          transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+          z-index: 1;
+          transition: border 0.3s, opacity 0.5s, filter 0.5s;
+          will-change: transform, box-shadow;
           box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
           overflow: hidden;
         }

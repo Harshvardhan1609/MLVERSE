@@ -82,7 +82,7 @@ const LaunchEvent = () => {
       <div className="launch-photo-wrapper">
         <img
           ref={photoRef}
-          src="/team-launch.jpg"
+          src="/team-launch.jpeg"
           alt="MLverse Launch — The Founding Builders at SIN School of AI"
           className="launch-photo"
         />
@@ -99,7 +99,7 @@ const LaunchEvent = () => {
       {/* ── Live Badge ── */}
       <div ref={badgeRef} className="launch-badge">
         <span className="badge-dot" />
-        COHORT 01 · LAUNCH DAY
+        COHORT 01 · LAUNCH DAY · 15 MAY 2026
       </div>
 
       {/* ── Caption block ── */}
